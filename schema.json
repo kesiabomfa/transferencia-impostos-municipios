@@ -1,0 +1,68 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "transferencia-impostos-municipios",
+      "path": "transferencia-imopstos-municipios.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "nome_do_municipio",
+            "type": "string",
+            "format": "default",
+            "title": "Nome do Município",
+            "description": "Nome do Município beneficiado com o repasse de impostos pelo Estado de Minas Gerais"
+          },
+          {
+            "name": "valor_icms",
+            "type": "number",
+            "format": "default",
+            "title": "Valor ICMS",
+            "description": "Valor do ICMS repassado ao município"
+          },
+          {
+            "name": "valor_ipi",
+            "type": "number",
+            "format": "default",
+            "title": "Valor IPI",
+            "description": "Valor do IPI repassado ao município"
+          },
+          {
+            "name": "valor_ipva",
+            "type": "number",
+            "format": "default",
+            "title": "Valor IPVA",
+            "description": "Valor do IPVA repassado ao município"
+          },
+          {
+            "name": "valor_total",
+            "type": "number",
+            "format": "default",
+            "title": "Valor Total",
+            "description": "Valor Total de impostos repassados ao município"
+          },
+        ]
+      },
+      "title": "Transferências de Impostos a Municípios",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Dados contendo os valores repassados pelo Estado aos Municípios por meio de transferências obrigatórias de impostos arrecadados (ICMS, IPVA, IPI)"
+    }
+  ],
+  "keywords": [
+    "impostos",
+    "icms",
+    "ipva",
+    "ipi"
+  ],
+  "name": "transferencia-impostos-municipios",
+  "title": "Transferência Impostos a Municípios",
+  "description": "Dados contendo os valores repassados pelo Estado aos Municípios por meio de transferências obrigatórias de impostos arrecadados (ICMS, IPVA, IPI)",
+  "contributors": [
+    {
+      "title": "Kesia",
+      "role": "author"
+    }
+  ]
+}
